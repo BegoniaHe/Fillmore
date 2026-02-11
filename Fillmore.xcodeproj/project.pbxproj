@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82F64E742C98BAD4921AF02F /* TuistBundle+Fillmore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8168042AA4A3DF97906EA5 /* TuistBundle+Fillmore.swift */; };
+		899C8E81021D35F58FBB1669 /* TuistAssets+Fillmore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0581967BEBE14EB74BB4FDC7 /* TuistAssets+Fillmore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D39F36AA716A1CE08E944A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E6981F378A73B0D04F6316F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B15B07C72031FBE283DA8DE;
+			remoteInfo = Fillmore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0AD30CA6C4BBE7846B51CE37 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9BB184B031D324800D0E9C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0581967BEBE14EB74BB4FDC7 /* TuistAssets+Fillmore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+Fillmore.swift"; sourceTree = "<group>"; };
+		5F8168042AA4A3DF97906EA5 /* TuistBundle+Fillmore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+Fillmore.swift"; sourceTree = "<group>"; };
+		6552C42E8805C81A489001AB /* Fillmore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fillmore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF8064FB3C7BBD04B032F4F /* FillmoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FillmoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C98EFD1565BAB1165C7643 /* Fillmore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Fillmore-Info.plist"; sourceTree = "<group>"; };
+		E671B18E258DA909BCB64CD0 /* FillmoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FillmoreTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BCBD3833369E150DE41659A2 /* Sources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources; sourceTree = "<group>"; };
+		C2D8D16F264FDA24502F9566 /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
+		E7AFAF49971629B677F96B5B /* Tests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Tests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16B23A03620DB428F026637D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94A4EF72A925A51DF3D4750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32284C638462F7FC1EDE1BF9 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				A9C98EFD1565BAB1165C7643 /* Fillmore-Info.plist */,
+				E671B18E258DA909BCB64CD0 /* FillmoreTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		5C7A418E170DD2B043E54E89 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				32284C638462F7FC1EDE1BF9 /* InfoPlists */,
+				F2294B685668F794830389A2 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		7529A4AD7AF9B93BF0A72EA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6552C42E8805C81A489001AB /* Fillmore.app */,
+				8DF8064FB3C7BBD04B032F4F /* FillmoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2D50449E68346BED00E94A /* Fillmore */ = {
+			isa = PBXGroup;
+			children = (
+				C2D8D16F264FDA24502F9566 /* Resources */,
+				BCBD3833369E150DE41659A2 /* Sources */,
+				E7AFAF49971629B677F96B5B /* Tests */,
+			);
+			path = Fillmore;
+			sourceTree = "<group>";
+		};
+		CDD78CFF45897CB7F396CB9F /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				5C7A418E170DD2B043E54E89 /* Derived */,
+				BB2D50449E68346BED00E94A /* Fillmore */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		E4B69CC4B65DE6B91A47116B = {
+			isa = PBXGroup;
+			children = (
+				7529A4AD7AF9B93BF0A72EA4 /* Products */,
+				CDD78CFF45897CB7F396CB9F /* Project */,
+			);
+			sourceTree = "<group>";
+		};
+		F2294B685668F794830389A2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0581967BEBE14EB74BB4FDC7 /* TuistAssets+Fillmore.swift */,
+				5F8168042AA4A3DF97906EA5 /* TuistBundle+Fillmore.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B15B07C72031FBE283DA8DE /* Fillmore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E801F0EEE10105BDDC168CF /* Build configuration list for PBXNativeTarget "Fillmore" */;
+			buildPhases = (
+				C3B6541CFEB65518E71F9121 /* Sources */,
+				4BD42092E4B1FF0045587FA1 /* Resources */,
+				16B23A03620DB428F026637D /* Frameworks */,
+				0AD30CA6C4BBE7846B51CE37 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BCBD3833369E150DE41659A2 /* Sources */,
+				C2D8D16F264FDA24502F9566 /* Resources */,
+			);
+			name = Fillmore;
+			packageProductDependencies = (
+			);
+			productName = Fillmore;
+			productReference = 6552C42E8805C81A489001AB /* Fillmore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D9661719AB6BE655877C9F5 /* FillmoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D47C70C689247FD96F9E5E52 /* Build configuration list for PBXNativeTarget "FillmoreTests" */;
+			buildPhases = (
+				1B92167E5E17AF2A3C1A25B8 /* Sources */,
+				88700D149FC288DA2CE6A8A2 /* Resources */,
+				C94A4EF72A925A51DF3D4750 /* Frameworks */,
+				AD9BB184B031D324800D0E9C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181F4EA4E7EDDA2DA2564F40 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E7AFAF49971629B677F96B5B /* Tests */,
+			);
+			name = FillmoreTests;
+			packageProductDependencies = (
+			);
+			productName = FillmoreTests;
+			productReference = 8DF8064FB3C7BBD04B032F4F /* FillmoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E6981F378A73B0D04F6316F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					9D9661719AB6BE655877C9F5 = {
+						TestTargetID = 8B15B07C72031FBE283DA8DE;
+					};
+				};
+			};
+			buildConfigurationList = F20236447C547BF96371F39A /* Build configuration list for PBXProject "Fillmore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E4B69CC4B65DE6B91A47116B;
+			productRefGroup = 7529A4AD7AF9B93BF0A72EA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B15B07C72031FBE283DA8DE /* Fillmore */,
+				9D9661719AB6BE655877C9F5 /* FillmoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BD42092E4B1FF0045587FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88700D149FC288DA2CE6A8A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B92167E5E17AF2A3C1A25B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B6541CFEB65518E71F9121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899C8E81021D35F58FBB1669 /* TuistAssets+Fillmore.swift in Sources */,
+				82F64E742C98BAD4921AF02F /* TuistBundle+Fillmore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181F4EA4E7EDDA2DA2564F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fillmore;
+			target = 8B15B07C72031FBE283DA8DE /* Fillmore */;
+			targetProxy = 3D39F36AA716A1CE08E944A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0003128068A66E009B20A4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		222148CD2C6CA51558ECABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "Derived/InfoPlists/FillmoreTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tuist.FillmoreTests;
+				PRODUCT_NAME = FillmoreTests;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fillmore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fillmore";
+				TEST_TARGET_NAME = Fillmore;
+			};
+			name = Release;
+		};
+		58094FADA8BEFDCE05482CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A07228205D76FB116DE3415E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/Fillmore-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tuist.Fillmore;
+				PRODUCT_NAME = Fillmore;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DCDCFB0C603DBA443DBA6E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/Fillmore-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tuist.Fillmore;
+				PRODUCT_NAME = Fillmore;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F2B3350615B6BE0A589411EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "Derived/InfoPlists/FillmoreTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tuist.FillmoreTests;
+				PRODUCT_NAME = FillmoreTests;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fillmore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fillmore";
+				TEST_TARGET_NAME = Fillmore;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E801F0EEE10105BDDC168CF /* Build configuration list for PBXNativeTarget "Fillmore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07228205D76FB116DE3415E /* Debug */,
+				DCDCFB0C603DBA443DBA6E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D47C70C689247FD96F9E5E52 /* Build configuration list for PBXNativeTarget "FillmoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B3350615B6BE0A589411EA /* Debug */,
+				222148CD2C6CA51558ECABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20236447C547BF96371F39A /* Build configuration list for PBXProject "Fillmore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0003128068A66E009B20A4D3 /* Debug */,
+				58094FADA8BEFDCE05482CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E6981F378A73B0D04F6316F /* Project object */;
+}
